@@ -114,7 +114,7 @@ class HiveCacheStore implements CacheStore {
 }
 
 class _CacheResponseAdapter extends TypeAdapter<CacheResponse> {
-  static const int _typeId = 93;
+  static const int _typeId = 251;
 
   @override
   final int typeId = _typeId;
@@ -189,7 +189,7 @@ class _CacheResponseAdapter extends TypeAdapter<CacheResponse> {
 }
 
 class _CacheControlAdapter extends TypeAdapter<CacheControl> {
-  static const int _typeId = 94;
+  static const int _typeId = 252;
 
   @override
   final int typeId = _typeId;
@@ -246,7 +246,7 @@ class _CacheControlAdapter extends TypeAdapter<CacheControl> {
 }
 
 class _CachePriorityAdapter extends TypeAdapter<CachePriority> {
-  static const int _typeId = 95;
+  static const int _typeId = 253;
 
   @override
   final int typeId = _typeId;
